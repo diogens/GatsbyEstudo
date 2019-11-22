@@ -1,12 +1,13 @@
 import React from "react"
-import Profile from "../components/Profile"
+import Layout from "../components/Layout"
 import SEO from "../components/seo"
 
 const AboutPage = () => (
-  <Profile>
+  <Layout>
     <SEO title="about" />
+
     <h1>About Page</h1>
-  </Profile>
+  </Layout>
 )
 
 export default AboutPage
