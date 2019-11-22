@@ -52,19 +52,19 @@ table {
 
 *{
   box-sizing: border-box;
+	font-family: monospace,
 }
 
 body{
   background: #16202c;
   line-height: 1;
   font-size: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,
+  font-family: 'Courier New', Courier, monospace,
 }
 img{
   display: block;
   width: 100%;
   height: auto;
 }
-
 `
 export default GlobalStyle
